@@ -1,0 +1,19 @@
+# Ignorar todos os arquivos de dados locais
+*.json
+*.csv
+*.parquet
+*.delta
+*.crc
+*.snappy
+
+# Ignorar PDFs e documentos de texto/markdowns
+*.pdf
+*.docx
+*.md
+documentacao_tcc/
+
+# Ignorar artefatos do Python e Databricks
+__pycache__/
+*.pyc
+.env
+.DS_Store
